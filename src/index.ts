@@ -4,7 +4,7 @@ import { AppModule } from './app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import * as functions from 'firebase-functions';
 import { ExpressAdapter } from '@nestjs/platform-express';
-import express from 'express';
+import express = require('express');
 import helmet from 'helmet';
 import { ControllersModule } from './controllers/controlers.module';
 
