@@ -36,13 +36,10 @@ $ npm install
 
 ```bash
 # development
-$ npm run start
+$ npm run serve
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+# deploying the app
+$ npm run deploy
 ```
 
 ## Test
